@@ -102,7 +102,7 @@ const portfolioData = {
     },
     {
       category: "Participation",
-      title: "WIE Day —2026",
+      title: "IEEE WIE Day —2026",
       organization: "IEEE WIE Student Branch, Bangladesh",
       period: "Published profile",
       details: "Participated in the Idea Competition during WIE Day —2026, organized by IEEE WIE Student Branch, Bangladesh."
