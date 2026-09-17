@@ -15,7 +15,7 @@ const portfolioData = {
     email: "swakhar2003@gmail.com",
     phone: "+880 1964-617478",
     location: "Dhaka, Bangladesh",
-    cv: "c:\\Users\\User\\Downloads\\Professional CV Resume (1) - SWAKHAR BISWAS 0242320005131250.pdf"
+    cv: "cv/WAKHAR_BISWAS_CV.pdf"
   },
   socials: {
     github: "[Add GitHub URL]",
