@@ -100,6 +100,13 @@ const portfolioData = {
       period: "Published profile",
       details: "Participated in REACT, in final round of the competition as the th team, organized by IEEE SEU Student Branch, Bangladesh."
     },
+    {
+      category: "Participation",
+      title: "WIE Day —2026",
+      organization: "IEEE WIE Student Branch, Bangladesh",
+      period: "Published profile",
+      details: "Participated in the Idea Competition during WIE Day —2026, organized by IEEE WIE Student Branch, Bangladesh."
+    },
   ],
 
   skills: [
