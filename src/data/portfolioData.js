@@ -107,6 +107,12 @@ const portfolioData = {
       period: "Published profile",
       details: "Participated in the Idea Competition during WIE Day —2026, organized by IEEE WIE Student Branch, Bangladesh."
     },
+    {  category: "Achievement",
+      title: "Best Library User Award",
+      organization: "University Library, DIU",
+      period: "Summer-2023,Fall-2024 & Spring-2024",
+      details: "Received the Best Library User Award for outstanding utilization of library resources."
+    },
   ],
 
   skills: [
