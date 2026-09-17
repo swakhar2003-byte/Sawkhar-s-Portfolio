@@ -15,7 +15,7 @@ const portfolioData = {
     email: "swakhar2003@gmail.com",
     phone: "+880 1964-617478",
     location: "Dhaka, Bangladesh",
-    cv: "/files/Swakhar-Biswas-CV.pdf"
+    cv: "c:\\Users\\User\\Downloads\\Professional CV Resume (1) - SWAKHAR BISWAS 0242320005131250.pdf"
   },
   socials: {
     github: "[Add GitHub URL]",
@@ -102,7 +102,7 @@ const portfolioData = {
     },
     {
       category: "Participation",
-      title: "IEEE WIE Day —2026",
+      title: "WIE Day —2026",
       organization: "IEEE WIE Student Branch, Bangladesh",
       period: "Published profile",
       details: "Participated in the Idea Competition during WIE Day —2026, organized by IEEE WIE Student Branch, Bangladesh."
