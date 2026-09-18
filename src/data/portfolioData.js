@@ -134,7 +134,7 @@ const portfolioData = {
     { title: "Participation Certificate Image", issuer: "", date: "", file: "/files/certificates/participation-certificate-image.png" },
     { title: "Swakhar Biswas Certificate", issuer: "", date: "", file: "/files/certificates/swakhar-biswas-certificate.pdf" },
     { title: "Swakhar Biswas Certificate Image", issuer: "", date: "", file: "/files/certificates/swakhar-biswas-certificate.jpg" }
-    { title: "Swakhar Biswas Certificate Image", issuer: "", date: "", file: "/files/Certificate swakhar/2_20210912_121908_0001.png" }
+    { title: "Swakhar Biswas Certificate Image", issuer: "", date: "", file: "/files/Certificate swakhar/2_20210912_121908_0001.png" },
   ],
 
   
