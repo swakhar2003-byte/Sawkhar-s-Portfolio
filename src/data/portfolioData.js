@@ -114,6 +114,26 @@ const portfolioData = {
       period: "Summer-2023, Fall-2024 & Spring-2024",
       details: "Received the Best Library User Award for outstanding utilization of library resources."
     },
+    {
+      category: "Achievement",
+      title: "Best Library User Award",
+      organization: "University Library, DIU",
+      period: "Summer-2023, Fall-2024 & Spring-2024",
+      details: "Received the Best Library User Award for outstanding utilization of library resources."
+    },
+  ],
+
+  certificates: [
+    { title: "Climate Quiz Certificate", issuer: "", date: "", file: "/files/certificates/climate-quiz-certificate.pdf" },
+    { title: "WTW e-Certificate", issuer: "", date: "", file: "/files/certificates/wtw-e-certificate.pdf" },
+    { title: "Certificate of Participation", issuer: "", date: "", file: "/files/certificates/certificate-participation.png" },
+    { title: "MEMES Certificate", issuer: "", date: "", file: "/files/certificates/memes-certificate.png" },
+    { title: "Participant Certificate", issuer: "", date: "", file: "/files/certificates/participant-certificate.pdf" },
+    { title: "Participation Certificate 1", issuer: "", date: "", file: "/files/certificates/participation-certificate-1.pdf" },
+    { title: "Participation Certificate 2", issuer: "", date: "", file: "/files/certificates/participation-certificate-2.pdf" },
+    { title: "Participation Certificate Image", issuer: "", date: "", file: "/files/certificates/participation-certificate-image.png" },
+    { title: "Swakhar Biswas Certificate", issuer: "", date: "", file: "/files/certificates/swakhar-biswas-certificate.pdf" },
+    { title: "Swakhar Biswas Certificate Image", issuer: "", date: "", file: "/files/certificates/swakhar-biswas-certificate.jpg" }
   ],
 
   skills: [

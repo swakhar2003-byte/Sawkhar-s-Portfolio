@@ -7,7 +7,7 @@ import {
 } from "lucide-react";
 import portfolioData from "./data/portfolioData";
 
-const nav = ["Home","About","Education","Experience","Skills","Projects","Research","Achievements","Contact"];
+const nav = ["Home","About","Education","Experience","Skills","Projects","Research","Achievements","Certificates","Contact"];
 const categories = ["All","Electronics","Power","DSP","AI/ML","Robotics","Simulation","Web","Research"];
 
 function safeLink(value) {
@@ -218,7 +218,28 @@ function App() {
           </div>
         </Section>
 
-        <Section id="contact" eyebrow="08 / Contact" title="Let's build something useful.">
+        <Section id="certificates" eyebrow="08 / Certificates" title="Proof of the work.">
+          <div className="certificate-grid">
+            {portfolioData.certificates.length > 0 ? portfolioData.certificates.map((certificate, i) => (
+              <article className="certificate-card" key={`${certificate.title}-${i}`}>
+                <div className="certificate-icon"><FileText size={24}/></div>
+                <div>
+                  <span className="certificate-number">0{i + 1}</span>
+                  <h3>{certificate.title}</h3>
+                  <p>{certificate.issuer} · {certificate.date}</p>
+                </div>
+                {safeLink(certificate.file) && <a href={certificate.file} target="_blank" rel="noreferrer" aria-label={`Open ${certificate.title}`}><ExternalLink size={18}/></a>}
+              </article>
+            )) : (
+              <div className="certificate-empty">
+                <FileText size={24}/>
+                <div><h3>Your certificates will appear here.</h3><p>Place PDF or image files in <strong>public/files/certificates</strong>, then add their title, issuer, date, and file path in the certificates list.</p></div>
+              </div>
+            )}
+          </div>
+        </Section>
+
+        <Section id="contact" eyebrow="09 / Contact" title="Let's build something useful.">
           <div className="contact-grid">
             <div><h3 className="contact-title">Have a project, research idea, or opportunity?</h3><p className="contact-text">Use the details published in the portfolio or send a message through the form.</p><div className="contact-details">
               {safeLink(portfolioData.personal.email) && <a href={`mailto:${portfolioData.personal.email}`}><Mail/> {portfolioData.personal.email}</a>}
